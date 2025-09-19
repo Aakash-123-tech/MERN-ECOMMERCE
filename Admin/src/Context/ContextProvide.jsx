@@ -4,7 +4,7 @@ import axios from 'axios'
 export const MyContext = createContext()
 
 const ContextProvide = ({ children }) => {
-  const url = 'http://localhost:4000'
+  const url = 'https://e-commerce-backend-gll8.onrender.com'
 
   const [img, setimg] = useState('')
   const [previewimg, setpreviewimg] = useState('')

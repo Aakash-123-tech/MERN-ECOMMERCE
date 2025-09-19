@@ -7,7 +7,7 @@ import {toast} from 'react-toastify'
 export const MyContext=createContext()
 
 const Context = ({children}) => {
-const url= 'http://localhost:4000'
+const url= 'https://e-commerce-backend-gll8.onrender.com'
 const navigate= useNavigate()
 
 const[productData,setProductData]=useState([])
