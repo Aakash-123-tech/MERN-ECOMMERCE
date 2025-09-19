@@ -5,6 +5,7 @@ export const MyContext = createContext()
 
 const ContextProvide = ({ children }) => {
   const url = 'https://e-commerce-backend-gll8.onrender.com'
+  
 
   const [img, setimg] = useState('')
   const [previewimg, setpreviewimg] = useState('')
